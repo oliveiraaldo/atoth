@@ -18,6 +18,7 @@ export default function Footer() {
                   className="mx-auto md:mx-0 w-auto h-auto"
                   priority
                   quality={100}
+                  unoptimized
                 />
               </Link>
             </div>
@@ -59,7 +60,10 @@ export default function Footer() {
                 src="/lumidea-logo.svg"
                 width={98}
                 height={28}
+                quality={100}
+                priority
                 alt="Logotipo Lumidea Desenvolvimento de Software e Sites"
+                unoptimized
               />
             </Link>
           </div>

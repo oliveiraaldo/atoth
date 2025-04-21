@@ -98,6 +98,7 @@ export default function Header() {
               priority
               quality={100}
               className="w-auto h-auto"
+              unoptimized
             />
           </Link>
         </div>
