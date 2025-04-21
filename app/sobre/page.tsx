@@ -5,7 +5,7 @@ export const metadata = {
     description: 'Conheça mais sobre a nossa missão, visão e equipe.',
     keywords: ['sobre', 'empresa', 'missão', 'valores'],
     openGraph: {
-      title: 'Sobre Nós',
+      title: 'Sobre Nós Teste de Deploy',
       description: 'Informações institucionais sobre nossa empresa.',
       url: 'https://seudominio.com/about',
       siteName: 'Nome do Site',
