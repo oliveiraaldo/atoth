@@ -63,10 +63,16 @@ export default function Header() {
     <header className="bg-white shadow">
       {/* Barra superior */}
       <nav className="text-white bg-blue-500 hidden md:block text-[13px]">
-        <div className="container mx-auto flex justify-between py-4">
-          <div className='flex gap-2'><MdOutlineEmail className='text-xl'/>rogerio.gomes@atoth.com.br</div>
-          <div className='flex gap-2'><FaPhone className='text-md align-baseline mt-1'/>  +55 11 9 8364-6546</div>
-          <div className='flex gap-3'>
+        <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 py-4 text-center md:text-left">
+          <div className='flex md:justify-start justify-center gap-2'>
+            <MdOutlineEmail className='text-xl'/>
+            <span>rogerio.gomes@atoth.com.br</span>
+          </div>
+          <div className='flex md:justify-center justify-center gap-2'>
+            <FaPhone className='text-md align-baseline mt-1'/>
+            <span>+55 11 9 8364-6546</span>
+          </div>
+          <div className='flex md:justify-end justify-center gap-3'>
             <Link href="https://wa.me/5511983646546" target="_blank" className="text-white hover:text-blue-300 transition">
               < FaInstagram className='text-2xl' />
             </Link>
@@ -136,12 +142,12 @@ export default function Header() {
                   item.children?.some(child => child.href === pathname)
                     ? 'text-blue-500'
                     : 'text-blue-900'
-                } border-l-2 border-blue-500 pl-2 flex items-center`}>
+                } flex items-center`}>
                   {item.label}
                 </span>
               )}
               {item.children && (
-                <ul className="absolute left-1/2 transform -translate-x-1/2 mt-2 flex flex-row gap-3 bg-white border-0 rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-50">
+                <ul className="absolute left-1/2 transform -translate-x-1/2 mt-2 flex flex-col  gap-3 bg-white border-0 rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-50">
                   {item.children.map((sub) => (
                     <li key={sub.href}>
                       <Link

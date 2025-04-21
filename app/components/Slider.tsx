@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { usePathname } from 'next/navigation'
 
 
@@ -22,9 +22,9 @@ export default function Slider() {
 
   const slides = pathname === '/sobre' ? slidesSobre : slidesHome
 
-  const nextSlide = () => {
+  const nextSlide = useCallback(() => {
     setCurrent((prev) => (prev + 1) % slides.length)
-  }
+  }, [slides.length])
 
   const prevSlide = () => {
     setCurrent((prev) => (prev - 1 + slides.length) % slides.length)
