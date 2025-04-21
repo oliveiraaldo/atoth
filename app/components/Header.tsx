@@ -60,7 +60,7 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-white shadow">
+    <header className="bg-white shadow fixed top-0 left-0 right-0 z-50">
       {/* Barra superior */}
       <nav className="text-white bg-blue-500 hidden md:block text-[13px]">
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 py-4 text-center md:text-left">
@@ -97,6 +97,7 @@ export default function Header() {
               alt="Logotipo Atoth Consultoria Empresarial"
               priority
               quality={100}
+              sizes="(max-width: 768px) 100px, 130px"
               className="w-auto h-auto"
               unoptimized
             />

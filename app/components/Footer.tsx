@@ -12,10 +12,9 @@ export default function Footer() {
               <Link href="/" className="flex justify-center md:justify-start">
                 <Image
                   src="/logo-footer.svg"
-                  width={130}
-                  height={81}
+                  width={100}
+                  height={60}
                   alt="Logotipo Atoth Consultoria Empresarial"
-                  className="mx-auto md:mx-0 w-auto h-auto"
                   priority
                   quality={100}
                   unoptimized
