@@ -8,13 +8,16 @@ export default function Footer() {
     <footer className="text-[14px]">
       <div className="bg-blue-900 text-white p-4">
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 text-center items-center">
-            <div className='md:justify-start justify-center'>
-              <Link href="/">
+            <div className='flex md:justify-start justify-center w-full items-center'>
+              <Link href="/" className="flex justify-center md:justify-start">
                 <Image
                   src="/logo-footer.svg"
                   width={130}
                   height={81}
                   alt="Logotipo Atoth Consultoria Empresarial"
+                  className="mx-auto md:mx-0 w-auto h-auto"
+                  priority
+                  quality={100}
                 />
               </Link>
             </div>

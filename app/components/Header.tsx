@@ -87,7 +87,7 @@ export default function Header() {
       </nav>
 
       {/* Barra principal */}
-      <nav className="container mx-auto flex items-center justify-between py-4 relative">
+      <nav className="container mx-auto flex items-center justify-between py-4 relative px-4 md:px-0">
         <div>
           <Link href="/">
             <Image
@@ -95,6 +95,9 @@ export default function Header() {
               width={130}
               height={81}
               alt="Logotipo Atoth Consultoria Empresarial"
+              priority
+              quality={100}
+              className="w-auto h-auto"
             />
           </Link>
         </div>
