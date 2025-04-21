@@ -16,7 +16,7 @@ export const metadata = {
   export default function AboutPage() {
     return (
       <section>
-        <h1 className="text-3xl font-bold py-6">Sobre Nós</h1>
+        <h1 className="text-3xl font-bold py-6">Sobre Nós Teste de Deploy</h1>
         <p className='pb-6'>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, impedit doloribus ea error animi omnis obcaecati non distinctio rerum culpa doloremque amet laborum assumenda natus? Modi animi maxime ut quisquam?
         </p>
