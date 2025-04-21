@@ -38,7 +38,7 @@ export default function Slider() {
 
     // limpa o intervalo ao desmontar
     return () => clearInterval(interval)
-  }, [])
+  }, [nextSlide])
 
   return (
     <div className="relative w-full overflow-hidden h-64 rounded-xl">
