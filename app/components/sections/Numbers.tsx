@@ -18,7 +18,7 @@ export default function Numbers() {
           <div className="text-blue-500 text-5xl mb-4">
             <TbReportAnalytics className="h-16 w-16" />
           </div>
-          <h2 className="text-blue-900 text-5xl font-bold mb-2">300<span className="text-blue-500">+</span></h2>
+          <h2 className="text-blue-900 text-3xl font-bold mb-2">300<span className="text-blue-500">+</span></h2>
           <p className="text-blue-900 text-center font-medium">
             Auditorias<br />Realizadas
           </p>
@@ -29,7 +29,7 @@ export default function Numbers() {
           <div className="text-blue-500 text-5xl mb-4">
             <PiUsersThree className="h-16 w-16" />
           </div>
-          <h2 className="text-blue-900 text-5xl font-bold mb-2">500<span className="text-blue-500">+</span></h2>
+          <h2 className="text-blue-900 text-3xl font-bold mb-2">500<span className="text-blue-500">+</span></h2>
           <p className="text-blue-900 text-center font-medium">
             Profissionais<br />Treinados
           </p>
@@ -40,7 +40,7 @@ export default function Numbers() {
           <div className="text-blue-500 text-5xl mb-4">
             <BsBuildingCheck className="h-16 w-16" />
           </div>
-          <h2 className="text-blue-900 text-5xl font-bold mb-2">600<span className="text-blue-500">+</span></h2>
+          <h2 className="text-blue-900 text-3xl font-bold mb-2">600<span className="text-blue-500">+</span></h2>
           <p className="text-blue-900 text-center font-medium">
             Sistemas<br />Implementados
           </p>
@@ -51,7 +51,7 @@ export default function Numbers() {
           <div className="text-blue-500 text-5xl mb-4">
             <LuCalendarCheck2 className="h-16 w-16" />
           </div>
-          <h2 className="text-blue-900 text-5xl font-bold mb-2">100<span className="text-blue-500">%</span></h2>
+          <h2 className="text-blue-900 text-3xl font-bold mb-2">100<span className="text-blue-500">%</span></h2>
           <p className="text-blue-900 text-center font-medium">
             Entregas no<br />prazo
           </p>
