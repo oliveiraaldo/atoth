@@ -9,9 +9,8 @@ import Hero from './components/sections/Hero';
 export default function Home() {
   return (
     <>
-      <div className="hero mt-15 mx-5 md:mx-0">
-        <Hero />
-      </div>
+      <Hero />
+      
       <div className="services mt-15 mx-5 md:mx-0">
         <Services />
       </div>
