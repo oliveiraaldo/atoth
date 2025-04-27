@@ -24,7 +24,7 @@ export default function Services() {
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-10">
       {/* card 1 */}
       <Link href="/consultorias" className="group hover:bg-blue-500 hover:text-white hover:rounded-md">
-        <div className="bg-blue-50 rounded-md w-full h-70 flex flex-col justify-between p-8 border-b-6 border-blue-300 group-hover:bg-blue-500">
+        <div className="bg-blue-50 rounded-md w-full h-80 flex flex-col justify-between p-8 border-b-6 border-blue-300 group-hover:bg-blue-500">
           {/* Header */}
           <div className="text-blue-500 group-hover:text-white text-4xl">
             <FiPieChart />
@@ -53,7 +53,7 @@ export default function Services() {
 
       {/* card 2 */}
       <Link href="/treinamentos" className="group hover:bg-blue-500 hover:text-white hover:rounded-md">
-        <div className="bg-blue-50 rounded-md w-full h-70 flex flex-col justify-between p-8 border-b-6 border-blue-300 group-hover:bg-blue-500">
+        <div className="bg-blue-50 rounded-md w-full h-80 flex flex-col justify-between p-8 border-b-6 border-blue-300 group-hover:bg-blue-500">
           {/* Header */}
           <div className="text-blue-500 group-hover:text-white text-4xl">
             <FaUsers />
