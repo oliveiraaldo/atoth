@@ -1,4 +1,8 @@
 import Image from "next/image";
+import { TbReportAnalytics } from "react-icons/tb";
+import { PiUsersThree } from "react-icons/pi";
+import { LuCalendarCheck2 } from "react-icons/lu";
+import { BsBuildingCheck } from "react-icons/bs";
 
 export default function Numbers() {
   return (
@@ -13,11 +17,11 @@ export default function Numbers() {
 
         {/* Auditorias */}
         <div className="flex items-center justify-center gap-4">
-          <div className="icon text-blue-500 text-[32px]">  
-            <Image src="./iconeAudidorias.svg" alt="Icone de usuários" width={52} height={52} />
+          <div className="icon text-blue-500 text-[60px]">  
+            <TbReportAnalytics />
           </div>
           <div className="right-number text-center">
-            <div className="number text-blue-900 text-[32px] font-bold">
+            <div className="number text-blue-900 text-[28px] md:text-[32px] font-bold">
               300 <span className="text-blue-500">+</span>
             </div>
             <div className="description">
@@ -30,11 +34,11 @@ export default function Numbers() {
 
         {/* Treinamentos */}
         <div className="flex items-center justify-center gap-4">
-          <div className="icon text-blue-500 text-[32px]">  
-            <Image src="./iconeTreinamentos.svg" alt="Icone de usuários" width={52} height={52} />
+          <div className="icon text-blue-500 text-[60px]">  
+            <PiUsersThree />
           </div>
           <div className="right-number text-center">
-            <div className="number text-blue-900 text-[32px] font-bold">
+            <div className="number text-blue-900 text-[28px] md:text-[32px] font-bold">
               500 <span className="text-blue-500">+</span>
             </div>
             <div className="description">
@@ -47,11 +51,11 @@ export default function Numbers() {
 
         {/* Sistemas */}
         <div className="flex items-center justify-center gap-4">
-          <div className="icon text-blue-500 text-[32px]">  
-            <Image src="./iconeSistemas.svg" alt="Icone de usuários" width={52} height={52} />
+          <div className="icon text-blue-500 text-[60px]">  
+            <BsBuildingCheck />
           </div>
           <div className="right-number text-center">
-            <div className="number text-blue-900 text-[32px] font-bold">
+            <div className="number text-blue-900 text-[28px] md:text-[32px] font-bold">
               600 <span className="text-blue-500">+</span>
             </div>
             <div className="description">
@@ -64,11 +68,11 @@ export default function Numbers() {
 
         {/* Prazo */}
         <div className="flex items-center justify-center gap-4">
-          <div className="icon text-blue-500 text-[32px]">  
-            <Image src="./iconeEntregas.svg" alt="Icone de usuários" width={52} height={52} />
+          <div className="icon text-blue-500 text-[60px]">  
+            <LuCalendarCheck2 />
           </div>
           <div className="right-number text-center">
-            <div className="number text-blue-900 text-[32px] font-bold">
+            <div className="number text-blue-900 text-[28px] md:text-[32px] font-bold">
               100 <span className="text-blue-500">%</span>
             </div>
             <div className="description">

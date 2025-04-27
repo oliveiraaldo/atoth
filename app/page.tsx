@@ -19,7 +19,7 @@ export default function Home() {
         <Numbers />
       </div>
 
-      <div className="testemunials mt-15 mx-5 md:mx-0">
+      <div className="testemunials mt-15">
         <Testemunials />
       </div>
 
