@@ -7,12 +7,12 @@ export default function Numbers() {
   return (
     <section className="numbers bg-blue-50 p-8">
       <div className="flex flex-col items-center justify-center">
-        <h3 className="text-blue-500 text-[36px]">
+        <h3 className="text-blue-500 text-[36px] text-center">
           Números que comprovam nossa excelência
         </h3>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 pt-12 container mx-auto">
+      <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 pt-12 container mx-auto">
         {/* Auditorias */}
         <div className="flex flex-col items-center">
           <div className="text-blue-500 text-5xl mb-4">
