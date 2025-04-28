@@ -75,16 +75,16 @@ export default function AboutPage() {
           </Link>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 pt-8">
-          <div className="flex flex-col items-center justify-center">
-            <Image src="./rogerio-sobre.svg" alt="Estratégias e Soluções focadas em Resultados" quality={100} priority className="w-full h-auto" width={1000} height={500} />
+          <div className="flex flex-col items-center justify-center md:p-8">
+            <Image src="./rogerio-sobre.svg" alt="Estratégias e Soluções focadas em Resultados" quality={100} priority className="w-full h-auto" width={500} height={500} />
           </div>
           <div className="flex flex-col md:p-8 text-blue-900">
             <h5 className="text-blue-500 text-[18px] flex items-center gap-1">Rogério Gomes <CgArrowLongRight className="ml-2" /></h5>
             <h3 className="text-[30px] md:text-[32px] text-left mt-3">Mini-currículo </h3>
-            <p className="mt-4 text-[15px] md:text-[16px] text-justify">A Atoth Consultoria em Gestão Empresarial é uma organização de treinamento, consultoria, auditoria, desenvolvimento da cadeia de fornecedores, que presta serviços em gestão de negócios, qualidade e produtividade empresarial, nasceu do sonho de um empreendedor que acredita que a multiplicação de conhecimento pode ajudar as empresas brasileiras a melhorarem seu desempenho de forma robusta e sustentável. 
-            Graduado em Administração de Empresas, com Pós – Graduação em Sistema de gestão integrado, MBA em Gestão de Operações em produtos e Serviços pela Universidade de São Paulo – USP e Mestrando em Administração de desenvolvimento de negócios pela Universidade Presbiteriana Mackenzie, Auditor líder nas normas ISO 9001:2015;14001:2015 e OHSAS 18001:2007, tendo atuado como avaliador do prêmio nacional da Qualidade – PNQ ciclo de 2015 e Professor no SENAC – SP para o curso de formação de auditores internos em sistema de gestão integrada.
-            Experiência de 25 anos na área de Sistemas de gestão da Qualidade, Meio – Ambiente, Saúde e Segurança do Trabalho, Sendo 16 anos como consultor em Sistema de gestão possuindo vivência na implementação, manutenção e melhorias em programas voltados a gestão da qualidade, meio ambiente e Saúde e Segurança do Trabalho e no planejamento estratégico de diversas organizações de pequeno, médio e grande porte, nacionais e multinacionais.
-            </p>
+            <div className="mt-4 text-[15px] md:text-[17px] text-justify"> 
+              <p>Graduado em Administração de Empresas, com Pós – Graduação em Sistema de gestão integrado, MBA em Gestão de Operações em produtos e Serviços pela Universidade de São Paulo – USP e Mestrando em Administração de desenvolvimento de negócios pela Universidade Presbiteriana Mackenzie, Auditor líder nas normas ISO 9001:2015;14001:2015 e OHSAS 18001:2007, tendo atuado como avaliador do prêmio nacional da Qualidade – PNQ ciclo de 2015 e Professor no SENAC – SP para o curso de formação de auditores internos em sistema de gestão integrada.</p>
+              <p className='mt-4'>Experiência de 25 anos na área de Sistemas de gestão da Qualidade, Meio – Ambiente, Saúde e Segurança do Trabalho, Sendo 16 anos como consultor em Sistema de gestão possuindo vivência na implementação, manutenção e melhorias em programas voltados a gestão da qualidade, meio ambiente e Saúde e Segurança do Trabalho e no planejamento estratégico de diversas organizações de pequeno, médio e grande porte, nacionais e multinacionais.</p>
+            </div>
           </div>
         </div>
       </div>
