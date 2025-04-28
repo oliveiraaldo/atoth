@@ -10,7 +10,7 @@ export default function Services() {
       <h5 className="text-blue-500 text-[18px]">Nossos Serviços</h5>
     </div>
 
-    <div className="flex flex-col items-center justify-center pt-4">
+    <div className="flex flex-col items-center justify-center pt-4 text-center">
       <h2 className="text-blue-900 text-[40px]">Soluções Empresariais Personalizadas</h2>
     </div>
 

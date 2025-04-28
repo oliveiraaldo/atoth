@@ -28,7 +28,7 @@ export default function Clients() {
             <h2 className="text-blue-900 text-[40px]">Clientes Atendidos</h2>
         </div>
         
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 place-items-center px-4 py-10">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 place-items-center py-10">
           {logos.map((logo, index) => (
             <div key={index} className="opacity-100 hover:opacity-80 transition">
               <Image
