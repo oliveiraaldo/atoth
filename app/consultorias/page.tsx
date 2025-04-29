@@ -19,13 +19,13 @@ export default function ConsultoriasPage() {
       {/* Imagem topo */}
       <div className="w-full mb-10">
         <Image
-          src="./bg-hero-sobre.svg" 
+          src="./bg-hero-consultorias.svg" 
           alt="Estratégias e Soluções focadas em Resultados"
           quality={100}
           priority
           className="w-full h-auto"
-          width={1000}
-          height={500}
+          width={1280}
+          height={252}
         />
       </div>
       <div className="px-8 mb-10">
