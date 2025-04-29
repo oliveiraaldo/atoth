@@ -11,13 +11,26 @@ export const metadata = {
   },
 }
 
+import Image from 'next/image'
+
 export default function ConsultoriasPage() {
   return (
-    <section>
-      <h1 className="text-3xl font-bold py-6">Consultorias</h1>
-      <p className='pb-6'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, impedit doloribus ea error animi omnis obcaecati non distinctio rerum culpa doloremque amet laborum assumenda natus? Modi animi maxime ut quisquam?
-      </p>
+    <section className="">
+      {/* Imagem topo */}
+      <div className="w-full mb-10">
+        <Image
+          src="./bg-hero-sobre.svg" 
+          alt="Estratégias e Soluções focadas em Resultados"
+          quality={100}
+          priority
+          className="w-full h-auto"
+          width={1000}
+          height={500}
+        />
+      </div>
+      <div className="px-8 mb-10">
+        <h1 className="text-blue-900 text-[40px] text-center">Consultorias</h1>
+      </div>
     </section>
   )
 } 
