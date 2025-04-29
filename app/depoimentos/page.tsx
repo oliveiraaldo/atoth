@@ -11,13 +11,25 @@ export const metadata = {
   },
 }
 
+import Image from 'next/image'
+import Testemunials from '../components/sections/Testemunials'
+
 export default function DepoimentosPage() {
   return (
-    <section>
-      <h1 className="text-3xl font-bold py-6">Depoimentos</h1>
-      <p className='pb-6'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, impedit doloribus ea error animi omnis obcaecati non distinctio rerum culpa doloremque amet laborum assumenda natus? Modi animi maxime ut quisquam?
-      </p>
+    <section className=" mb-15">
+      {/* Imagem topo */}
+      <div className="w-full mb-10">
+        <Image
+          src="./bg-hero-sobre.svg" 
+          alt="Estratégias e Soluções focadas em Resultados"
+          quality={100}
+          priority
+          className="w-full h-auto"
+          width={1000}
+          height={500}
+        />
+      </div>
+      <Testemunials />
     </section>
   )
 } 

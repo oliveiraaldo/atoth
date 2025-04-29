@@ -11,9 +11,9 @@ export const metadata = {
   },
 }
 
-import Link from 'next/link'
 import Image from 'next/image'
 import { CgArrowLongRight } from "react-icons/cg"
+import Cta from '../components/Cta'
 
 export default function AboutPage() {
   return (
@@ -33,7 +33,8 @@ export default function AboutPage() {
       <div className="p-8">
         <div className="text-center">
           <h3 className="text-blue-900 text-[28px] md:text-[36px] text-center">
-          Estratégias e Soluções focadas em Resultados        </h3>
+            Estratégias e Soluções focadas em Resultados
+          </h3>
         </div>
 
         {/* Descrição da empresa */}
@@ -49,7 +50,7 @@ export default function AboutPage() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 pt-8">
           <div className="flex flex-col items-center justify-center bg-blue-50 p-8 rounded-md">
             <h3 className="text-blue-500 text-[34px] md:text-[36px] text-center">Nossa Missão</h3>
-            <p className="pt-4 text-[16px] md:text-[18px] text-justify text-blue-900">A Atoth é uma empresa voltada para o futuro e expressa isso em sua visão: "Ser considerada uma empresa de referência nacional na prestação de serviços de consultoria, treinamentos e auditorias voltados a Gestão Empresarial".</p>
+            <p className="pt-4 text-[16px] md:text-[18px] text-justify text-blue-900">A Atoth é uma empresa voltada para o futuro e expressa isso em sua visão: &quot;Ser considerada uma empresa de referência nacional na prestação de serviços de consultoria, treinamentos e auditorias voltados a Gestão Empresarial&quot;.</p>
             <div className="flex flex-col items-center justify-center w-50 border-1 border-blue-500 mt-12"></div>
           </div>
           <div className="flex flex-col items-center justify-center bg-blue-50 p-8 rounded-md">
@@ -65,19 +66,14 @@ export default function AboutPage() {
         </div>
 
         {/* CTA */}
-        <div className="flex flex-col items-center justify-center bg-blue-50 p-10 rounded-md mt-12"> 
-          <h3 className="text-blue-500 text-[34px] md:text-[36px] text-center">Quer revolucionar os resultados de sua empresa?</h3>
-          <Link 
-            href="https://wa.me/5511983646546"
-            target="_blank"
-          >
-            <button className="bg-blue-500 text-white px-4 py-2 rounded-sm mt-6 hover:bg-blue-900 transition-all duration-300 cursor-pointer">Entre em contato</button>
-          </Link>
-        </div>
+        <Cta />
+
+        {/* Mini-currículo */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 pt-8">
           <div className="flex flex-col items-center justify-center md:p-8">
             <Image src="./rogerio-sobre.svg" alt="Estratégias e Soluções focadas em Resultados" quality={100} priority className="w-full h-auto" width={500} height={500} />
           </div>
+
           <div className="flex flex-col md:p-8 text-blue-900">
             <h5 className="text-blue-500 text-[18px] flex items-center gap-1">Rogério Gomes <CgArrowLongRight className="ml-2" /></h5>
             <h3 className="text-[30px] md:text-[32px] text-left mt-3">Mini-currículo </h3>

@@ -14,6 +14,27 @@ const logos = [
   { src: './clientes/cliente00011.svg', alt: 'Arkema' },
   { src: './clientes/cliente00012.svg', alt: 'Arkema' },
   { src: './clientes/cliente00013.svg', alt: 'Arkema' },  
+  { src: './clientes/cliente00014.svg', alt: 'Arkema' },  
+  { src: './clientes/cliente00015.svg', alt: 'Arkema' },  
+  { src: './clientes/cliente00016.svg', alt: 'Arkema' },  
+  { src: './clientes/cliente00017.svg', alt: 'Arkema' },  
+  { src: './clientes/cliente00018.svg', alt: 'Arkema' },  
+  { src: './clientes/cliente00019.svg', alt: 'Arkema' },
+  { src: './clientes/cliente00020.svg', alt: 'Arkema' },
+  { src: './clientes/cliente00021.svg', alt: 'Arkema' },
+  { src: './clientes/cliente00022.svg', alt: 'Arkema' },
+  { src: './clientes/cliente00023.svg', alt: 'Arkema' },
+  { src: './clientes/cliente00024.svg', alt: 'Arkema' },
+  { src: './clientes/cliente00025.svg', alt: 'Arkema' },
+  { src: './clientes/cliente00026.svg', alt: 'Arkema' },
+  { src: './clientes/cliente00027.svg', alt: 'Arkema' },
+  { src: './clientes/cliente00028.svg', alt: 'Arkema' },
+  { src: './clientes/cliente00029.svg', alt: 'Arkema' },
+  { src: './clientes/cliente00030.svg', alt: 'Arkema' },
+  { src: './clientes/cliente00031.svg', alt: 'Arkema' },
+  
+  
+  
 ]
 
 export default function Clients() {

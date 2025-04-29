@@ -1,3 +1,5 @@
+'use client'
+
 import useEmblaCarousel from 'embla-carousel-react'
 import { useCallback } from 'react'
 import { AiOutlineLeft, AiOutlineRight, AiFillStar } from 'react-icons/ai'
