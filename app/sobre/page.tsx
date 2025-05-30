@@ -21,8 +21,8 @@ export default function AboutPage() {
       {/* Imagem topo */}
       <div className="w-full">
         <Image
-          src="./bg-hero-sobre.svg" 
-          alt="Estratégias e Soluções focadas em Resultados"
+          src="/bg/bg-hero-sobre.jpg"
+          alt="Sobre - Atoth"
           quality={100}
           priority
           className="w-full h-auto"
@@ -30,8 +30,12 @@ export default function AboutPage() {
           height={500}
         />
       </div>
-      <div className="p-8">
+      <div className="p-8 container mx-auto">
         <div className="text-center">
+          <div className="flex flex-col items-center justify-center">
+              <h5 className="text-blue-500 text-[18px]">Sobre</h5>
+          </div>
+
           <h3 className="text-blue-900 text-[28px] md:text-[36px] text-center">
             Estratégias e Soluções focadas em Resultados
           </h3>
@@ -47,7 +51,7 @@ export default function AboutPage() {
         </div>
         
         {/* Missão, Valores e Visão */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 pt-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 pt-8">
           <div className="flex flex-col items-center justify-center bg-blue-50 p-8 rounded-md">
             <h3 className="text-blue-500 text-[34px] md:text-[36px] text-center">Nossa Missão</h3>
             <p className="pt-4 text-[16px] md:text-[18px] text-justify text-blue-900">A Atoth é uma empresa voltada para o futuro e expressa isso em sua visão: &quot;Ser considerada uma empresa de referência nacional na prestação de serviços de consultoria, treinamentos e auditorias voltados a Gestão Empresarial&quot;.</p>
@@ -69,7 +73,7 @@ export default function AboutPage() {
         <Cta />
 
         {/* Mini-currículo */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 pt-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 pt-8">
           <div className="flex flex-col items-center justify-center md:p-8">
             <Image src="./rogerio-sobre.svg" alt="Estratégias e Soluções focadas em Resultados" quality={100} priority className="w-full h-auto" width={500} height={500} />
           </div>
@@ -78,8 +82,10 @@ export default function AboutPage() {
             <h5 className="text-blue-500 text-[18px] flex items-center gap-1">Rogério Gomes <CgArrowLongRight className="ml-2" /></h5>
             <h3 className="text-[30px] md:text-[32px] text-left mt-3">Mini-currículo </h3>
             <div className="mt-4 text-[15px] md:text-[17px] text-justify"> 
-              <p>Graduado em Administração de Empresas, com Pós – Graduação em Sistema de gestão integrado, MBA em Gestão de Operações em produtos e Serviços pela Universidade de São Paulo – USP e Mestrando em Administração de desenvolvimento de negócios pela Universidade Presbiteriana Mackenzie, Auditor líder nas normas ISO 9001:2015;14001:2015 e OHSAS 18001:2007, tendo atuado como avaliador do prêmio nacional da Qualidade – PNQ ciclo de 2015 e Professor no SENAC – SP para o curso de formação de auditores internos em sistema de gestão integrada.</p>
-              <p className='mt-4'>Experiência de 25 anos na área de Sistemas de gestão da Qualidade, Meio – Ambiente, Saúde e Segurança do Trabalho, Sendo 16 anos como consultor em Sistema de gestão possuindo vivência na implementação, manutenção e melhorias em programas voltados a gestão da qualidade, meio ambiente e Saúde e Segurança do Trabalho e no planejamento estratégico de diversas organizações de pequeno, médio e grande porte, nacionais e multinacionais.</p>
+              <p>Rogério Gomes é Mestre em Administração com foco em Desenvolvimento de Negócios pela Universidade Presbiteriana Mackenzie, graduado em Administração de Empresas pelo Centro Universitário São Camilo e possui MBA em Gestão de Operações em Produtos e Serviços pela Universidade de São Paulo (USP). Complementa sua formação com pós-graduação em Sistema de Gestão Integrado pelo SENAC, MBA em Gestão de Compliance e ESG pela USP/ESALQ e certificação Black Belt em Lean Six Sigma pela Fundação Vanzolini.</p>
+              <p className='mt-4'>Auditor Líder com sólida atuação nas normas ISO 9001:2015, 14001:2015, 45001:2018, 37301:2021, 45003:2021, 26000:2010, 20400:2017 e 39001:2012. Atuou como avaliador no Prêmio Nacional da Qualidade (PNQ) – ciclo 2015, além de ter sido professor do SENAC-SP em cursos de formação de auditores internos e Lead Assessor em Sistemas de Gestão Integrados.</p>
+              <p className='mt-4'>Com mais de 30 anos de experiência em gestão de negócios — sendo 19 deles dedicados à consultoria em sistemas de gestão —, acumula ampla vivência na implementação, manutenção e aprimoramento de programas de Qualidade, Meio Ambiente, Saúde e Segurança do Trabalho, bem como no planejamento estratégico de organizações de diversos portes e segmentos, tanto nacionais quanto multinacionais.</p>
+              <p className='mt-4'>Em junho de 2015 fundou a Atoth Consultoria e desde então atua como Diretor Geral da empresa, liderando projetos que impulsionam a excelência operacional e a sustentabilidade corporativa.</p>
             </div>
           </div>
         </div>

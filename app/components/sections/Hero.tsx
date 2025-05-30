@@ -31,7 +31,7 @@ export default function Hero() {
             target="_blank"
             className="bg-blue-500 hover:bg-blue-900 text-white px-8 py-3 rounded-md font-medium transition-colors inline-block"
           >
-            Solicitar Consultoria
+            Solicitar Serviços
           </Link>
         </div>
         

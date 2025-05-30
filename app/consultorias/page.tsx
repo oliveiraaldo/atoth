@@ -19,16 +19,16 @@ export default function ConsultoriasPage() {
       {/* Imagem topo */}
       <div className="w-full mb-10">
         <Image
-          src="./bg-hero-consultorias.svg" 
-          alt="Estratégias e Soluções focadas em Resultados"
+          src="/bg/bg-hero-consultorias.jpg"
+          alt="Consultorias - Atoth"
           quality={100}
           priority
           className="w-full h-auto"
-          width={1280}
-          height={252}
+          width={1000}
+          height={500}
         />
       </div>
-      <div className="px-8 mb-10">
+      <div className="mb-10 container mx-auto">
         <div className="flex flex-col items-center justify-center">
             <h5 className="text-blue-500 text-[18px]">Consultorias</h5>
         </div>
@@ -42,9 +42,9 @@ export default function ConsultoriasPage() {
           <p>Atoth Consultoria fará parte de sua equipe de trabalho, participando da implementação dos sistemas, não só como orientador do processo, mas também de forma operacional contribuindo para a efetiva realização das atividades planejadas com pleno sucesso. Colocamos a disposição das organizações e dos profissionais um grande leque de serviços ligados à Gestão de negócios.</p>
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-8 mb-10 place-items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 container mx-auto mb-10 place-items-center">
         <div>
-          <h3 className="text-blue-900 text-[32px] pl-5 text-center md:text-left">Consultorias em:</h3>
+          <h3 className="text-blue-900 text-[32px] text-center md:text-left">Consultorias em:</h3>
           <ul className="text-blue-900 list-disc pl-6 pt-4">
             <li><a href="#">Sistema de Gestão da Qualidade</a></li>
             <li><a href="#">Sistema de Gestão Ambiental</a></li>
@@ -60,7 +60,7 @@ export default function ConsultoriasPage() {
         </div>
         <div>
           <Image
-            src="./consultorias.svg" 
+            src="./img-consultorias.svg" 
             alt="Estratégias e Soluções focadas em Resultados"
             quality={100}
             priority

@@ -20,8 +20,8 @@ export default function ClientesPage() {
       {/* Imagem topo */}
       <div className="w-full mb-10">
         <Image
-          src="./bg-hero-clientes.svg" 
-          alt="Estratégias e Soluções focadas em Resultados"
+          src="/bg/bg-hero-clientes.jpg"
+          alt="Clientes - Atoth"
           quality={100}
           priority
           className="w-full h-auto"

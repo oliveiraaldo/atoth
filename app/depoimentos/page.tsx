@@ -20,13 +20,13 @@ export default function DepoimentosPage() {
       {/* Imagem topo */}
       <div className="w-full mb-10">
         <Image
-          src="./bg-hero-depoimentos.svg" 
-          alt="Estratégias e Soluções focadas em Resultados"
+          src="/bg/bg-hero-depoimentos.jpg"
+          alt="Depoimentos - Atoth"
           quality={100}
           priority
           className="w-full h-auto"
-          width={1280}
-          height={344}
+          width={1000}
+          height={500}
         />
       </div>
       <Testemunials />
