@@ -47,6 +47,20 @@ const testimonials = [
     company: "Layher Brasil Ltda.",
     website: "www.layher.com.br",
   },
+  {
+    text: `"Gostaríamos de registrar nossa satisfação com os serviços prestados pela Atoth Consultoria, cuja parceria tem sido fundamental ao longo dos últimos anos, especialmente nas áreas de certificações ISO e construção de procedimentos internos. A equipe da Atoth sempre demonstrou dedicação, competência técnica e atenção ao cliente, contribuindo diretamente para o sucesso das nossas auditorias e para o fortalecimento da nossa governança interna.Em especial, destacamos o trabalho do consultor Rogério, cuja experiência, comprometimento e proximidade com o nosso time foram decisivos para alcançarmos resultados sólidos e consistentes."`,
+    name: "André Fazia",
+    role: "CEO",
+    company: "WKR Prime Representação Comercial Ltda",
+    website: "https://www.wkrprime.com.br/pt/",
+  },
+  {
+    text: `"Parabenizamos a Atoth Consultoria pelos seus 10 anos de trajetória! Ao longo desses anos, sua expertise tem sido fundamental para nos auxiliar no mapeamento de processos, padronização de atividades e fortalecimento de nossas auditorias. A Arkema agradece pela parceria sólida e pelo compromisso com a excelência, além de contribuírem de forma significativa para nossos avanços"`,
+    name: "Carlos de Lion",
+    role: "Presidente",
+    company: "Arkema Brasil e Cone Sul",
+    website: "https://www.arkema.com/brazil/pt/",
+  },
 ]
 
 export default function TestimonialSlider() {

@@ -56,10 +56,10 @@ export default function Header() {
             <span>+55 11 9 8364-6546</span>
           </div>
           <div className='flex md:justify-end justify-center gap-3'>
-            <Link href="https://wa.me/5511983646546" target="_blank" className="text-white hover:text-blue-300 transition">
+            <Link href="https://www.instagram.com/atoth_consultoria/" target="_blank" className="text-white hover:text-blue-300 transition">
               < FaInstagram className='text-2xl' />
             </Link>
-            <Link href="https://www.linkedin.com/in/rogerio-gomes-7000228?originalSubdomain=br" target="_blank" className="text-white hover:text-blue-300 transition">
+            <Link href="https://wa.me/5511983646546" target="_blank" className="text-white hover:text-blue-300 transition">
               < FaWhatsapp className='text-2xl' />
             </Link>
             <Link href="https://www.linkedin.com/in/rogerio-gomes-7000228?originalSubdomain=br" target="_blank" className="text-white hover:text-blue-300 transition">
