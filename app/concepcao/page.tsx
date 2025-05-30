@@ -12,7 +12,6 @@ export const metadata = {
   }
 
   import Image from 'next/image'
-  import { CgArrowLongRight } from "react-icons/cg"
 
   export default function ConcepcaoPage() {
     return (
@@ -54,9 +53,9 @@ export const metadata = {
   
           <div className="text-justify pt-8 text-[16px] md:text-[18px] text-blue-900">
             <p>A história da Atoth é marcada por uma constante evolução, e sua nova identidade visual reflete esse espírito de transformação e crescimento.</p>
-            <p>Em uma proposta ousada que explora a noção de eternidade, o símbolo do infinito se quebra para mostrar que toda jornada, por mais longa que seja, tem seu ápice. Em cada metade desse símbolo, inserimos uma gota que abriga "10" e "anos" em sentidos opostos, celebrando tanto o décimo aniversário da Atoth quanto a superação dos desafios enfrentados ao longo dessa trajetória.</p>
+            <p>Em uma proposta ousada que explora a noção de eternidade, o símbolo do infinito se quebra para mostrar que toda jornada, por mais longa que seja, tem seu ápice. Em cada metade desse símbolo, inserimos uma gota que abriga &quot;10&quot; e &quot;anos&quot; em sentidos opostos, celebrando tanto o décimo aniversário da Atoth quanto a superação dos desafios enfrentados ao longo dessa trajetória.</p>
 
-            <p>A paleta de cores, que une o azul e o laranja, reforça a modernidade e a energia vibrante da marca, enquanto a tipografia firme e os traços que remetem ao "Consórcio em Gestão Empresarial" preservam a credibilidade já conquistada. Essa identidade visual, ao mesmo tempo dinâmica e reflexiva, simboliza a evolução contínua da Atoth, que abraça a renovação como parte essencial de seu crescimento.</p>
+            <p>A paleta de cores, que une o azul e o laranja, reforça a modernidade e a energia vibrante da marca, enquanto a tipografia firme e os traços que remetem ao &quot;Consórcio em Gestão Empresarial&quot; preservam a credibilidade já conquistada. Essa identidade visual, ao mesmo tempo dinâmica e reflexiva, simboliza a evolução contínua da Atoth, que abraça a renovação como parte essencial de seu crescimento.</p>
 
             <p>Desde sua origem, a Atoth tem se reinventado, e essa nova concepção marca um capítulo significativo nessa jornada.</p>
 

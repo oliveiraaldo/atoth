@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { CgArrowLongRight } from "react-icons/cg";
 import { FiPieChart } from "react-icons/fi";
-import { FaUsers, FaBusinessTime, FaSearch, FaProjectDiagram } from "react-icons/fa";
+import { FaUsers, FaSearch, FaProjectDiagram } from "react-icons/fa";
 import { MdOutlineManageAccounts } from "react-icons/md";
 
 export default function Services() {
@@ -81,7 +81,7 @@ export default function Services() {
       {/* fim do card 2 */}
 
       {/* card 3 - Gestão de Negócios */}
-      <Link href="/consultorias" className="group hover:bg-blue-500 hover:text-white hover:rounded-md">
+      <Link href="/gestao-de-negocios" className="group hover:bg-blue-500 hover:text-white hover:rounded-md">
         <div className="bg-blue-50 rounded-md w-full h-95 flex flex-col justify-between p-8 border-b-6 border-blue-300 group-hover:bg-blue-500">
           {/* Header */}
           <div className="text-blue-500 group-hover:text-white text-4xl">
@@ -107,7 +107,7 @@ export default function Services() {
       {/* fim do card 3 */}
 
       {/* card 4 - Auditorias */}
-      <Link href="/consultorias" className="group hover:bg-blue-500 hover:text-white hover:rounded-md">
+      <Link href="/auditorias-e-diagnosticos" className="group hover:bg-blue-500 hover:text-white hover:rounded-md">
         <div className="bg-blue-50 rounded-md w-full h-95 flex flex-col justify-between p-8 border-b-6 border-blue-300 group-hover:bg-blue-500">
           {/* Header */}
           <div className="text-blue-500 group-hover:text-white text-4xl">
@@ -133,7 +133,7 @@ export default function Services() {
       {/* fim do card 4 */}
 
       {/* card 5 - Diagnósticos e Desenvolvimento da Cadeia de Fornecedores */}
-      <Link href="/consultorias" className="group hover:bg-blue-500 hover:text-white hover:rounded-md">
+      <Link href="/desenvolvimento-fornecedores" className="group hover:bg-blue-500 hover:text-white hover:rounded-md">
         <div className="bg-blue-50 rounded-md w-full h-95 flex flex-col justify-between p-8 border-b-6 border-blue-300 group-hover:bg-blue-500">
           {/* Header */}
           <div className="text-blue-500 group-hover:text-white text-4xl">
