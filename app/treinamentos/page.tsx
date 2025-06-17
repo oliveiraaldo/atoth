@@ -42,6 +42,9 @@ const trainingTopics: Topic[] = [
   },
 ];
 
+// Array com os números das fotos que existem
+const availablePhotos = [1, 2, 3, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20, 21];
+
 function Accordion({ topics }: { topics: Topic[] }) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   return (
@@ -80,7 +83,7 @@ function Accordion({ topics }: { topics: Topic[] }) {
 export default function TreinamentosPage() {
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [lightboxIndex, setLightboxIndex] = useState<number>(0);
-  const totalImages = 23;
+  const totalImages = availablePhotos.length;
 
   const openLightbox = useCallback((idx: number) => {
     setLightboxIndex(idx);
@@ -123,11 +126,7 @@ export default function TreinamentosPage() {
           <h1 className="text-blue-900 text-[28px] md:text-[36px] font-bold mb-6">Capacitação para Transformar</h1>
         </div>
         <div className="text-blue-900 text-[16px] md:text-[18px] text-justify  mx-auto pt-8">
-          <p>Na Atoth, acreditamos que o crescimento de uma empresa começa com o desenvolvimento de sua equipe.</p>
-          <p className="pt-4">Por isso, oferecemos treinamentos presenciais e online cuidadosamente elaborados para capacitar profissionais e organizações nas áreas de gestão empresarial, liderança e inovação.</p>
-          <p className="pt-4">Nossos programas são desenhados sob medida, adaptados às necessidades específicas de cada cliente, para entregar resultados práticos e imediatos que fazem a diferença no dia a dia do seu negócio.</p>
-          <p className="pt-4">Seja para aprimorar habilidades de liderança, otimizar processos de gestão ou fomentar a inovação, a Atoth está pronta para guiar sua equipe rumo a novos patamares de desempenho.</p>
-          <p className="pt-4">Entre em contato hoje mesmo e descubra como nossas soluções podem transformar o potencial da sua equipe em ações concretas de sucesso.</p>
+          <p className="pt-4">A Atoth Consultoria desenvolveu um amplo portfólio de cursos que foram elaborados com objetivo de contribuir para a multiplicação e aperfeiçoamento do conhecimento dos sistemas de gestão organizacionais auxiliando nossos clientes a melhorarem seus processos e desenvolverem equipes mais competentes em seus ramos de atuações, sempre focado em resultados.</p>
         </div>
         <div className="flex flex-col md:flex-row gap-8 pt-12">
           <div className="flex-1">
@@ -149,11 +148,11 @@ export default function TreinamentosPage() {
 
         <div className="galeria pt-12">
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-            {Array.from({ length: 23 }, (_, i) => (
-              <div key={i} className="overflow-hidden rounded shadow hover:scale-105 transition-transform bg-blue-50 cursor-pointer" onClick={() => openLightbox(i)}>
+            {availablePhotos.map((photoNumber, i) => (
+              <div key={photoNumber} className="overflow-hidden rounded shadow hover:scale-105 transition-transform bg-blue-50 cursor-pointer" onClick={() => openLightbox(i)}>
                 <Image
-                  src={`/treinamentos/foto${(i+1).toString().padStart(5, '0')}.jpeg`}
-                  alt={`Treinamento ${i+1}`}
+                  src={`/treinamentos/foto${photoNumber.toString().padStart(5, '0')}.jpeg`}
+                  alt={`Treinamento ${photoNumber}`}
                   width={400}
                   height={300}
                   className="w-full h-48 object-cover"
@@ -175,8 +174,8 @@ export default function TreinamentosPage() {
               >‹</button>
               <div className="max-w-3xl max-h-[80vh] flex items-center justify-center" onClick={e => e.stopPropagation()}>
                 <Image
-                  src={`/treinamentos/foto${(lightboxIndex+1).toString().padStart(5, '0')}.jpeg`}
-                  alt={`Treinamento ${lightboxIndex+1}`}
+                  src={`/treinamentos/foto${availablePhotos[lightboxIndex].toString().padStart(5, '0')}.jpeg`}
+                  alt={`Treinamento ${availablePhotos[lightboxIndex]}`}
                   width={900}
                   height={700}
                   className="rounded shadow max-h-[80vh] w-auto h-auto"

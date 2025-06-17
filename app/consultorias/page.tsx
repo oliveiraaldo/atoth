@@ -49,7 +49,7 @@ export default function ConsultoriasPage() {
             <li><a href="#">Sistema de Gestão da Qualidade</a></li>
             <li><a href="#">Sistema de Gestão Ambiental</a></li>
             <li><a href="#">Sistema de Gestão de Segurança e Saúde Ocupacional</a></li>
-            <li><a href="#">Sistema de Gestão Integrada</a></li>
+            <li><a href="#">Sistema de Gestão Integrado</a></li>
             <li><a href="#">Sistema de Gestão da Qualidade Automotiva</a></li>
             <li><a href="#">Gerenciamento de Riscos (ISO 31000)</a></li>
             <li><a href="#">Gestão de Riscos Aplicado à ISO 9001, ISO 14001, ISO 45001 e IATF 16949</a></li>

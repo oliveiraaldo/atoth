@@ -52,14 +52,16 @@ export const metadata = {
         </div>
   
           <div className="text-justify pt-8 text-[16px] md:text-[18px] text-blue-900">
-            <p>A história da Atoth é marcada por uma constante evolução, e sua nova identidade visual reflete esse espírito de transformação e crescimento.</p>
-            <p>Em uma proposta ousada que explora a noção de eternidade, o símbolo do infinito se quebra para mostrar que toda jornada, por mais longa que seja, tem seu ápice. Em cada metade desse símbolo, inserimos uma gota que abriga &quot;10&quot; e &quot;anos&quot; em sentidos opostos, celebrando tanto o décimo aniversário da Atoth quanto a superação dos desafios enfrentados ao longo dessa trajetória.</p>
+            <h3 className="text-blue-900 text-[24px] md:text-[28px]">Origem do Nome</h3>
+            <p className='pt-5'>O nome ATOTH fundamentou-se na junção entre ATENAS (deusa grega da sabedoria, estratégia de batalha e razão) e TOTH (deus egípcio da sabedoria). Uma união de peso!</p>
+            <p className='pt-5'>A história da Atoth é marcada por uma constante evolução, e sua nova identidade visual reflete esse espírito de transformação e crescimento.</p>
+            <p className='pt-5'>Em uma proposta ousada que explora a noção de eternidade, o símbolo do infinito se quebra para mostrar que toda jornada, por mais longa que seja, tem seu ápice. Em cada metade desse símbolo, inserimos uma gota que abriga &quot;10&quot; e &quot;anos&quot; em sentidos opostos, celebrando tanto o décimo aniversário da Atoth quanto a superação dos desafios enfrentados ao longo dessa trajetória.</p>
 
-            <p>A paleta de cores, que une o azul e o laranja, reforça a modernidade e a energia vibrante da marca, enquanto a tipografia firme e os traços que remetem ao &quot;Consórcio em Gestão Empresarial&quot; preservam a credibilidade já conquistada. Essa identidade visual, ao mesmo tempo dinâmica e reflexiva, simboliza a evolução contínua da Atoth, que abraça a renovação como parte essencial de seu crescimento.</p>
+            <p className='pt-5'>A paleta de cores, que une o azul e o laranja, reforça a modernidade e a energia vibrante da marca, enquanto a tipografia firme e os traços que remetem ao &quot;Consórcio em Gestão Empresarial&quot; preservam a credibilidade já conquistada. Essa identidade visual, ao mesmo tempo dinâmica e reflexiva, simboliza a evolução contínua da Atoth, que abraça a renovação como parte essencial de seu crescimento.</p>
 
-            <p>Desde sua origem, a Atoth tem se reinventado, e essa nova concepção marca um capítulo significativo nessa jornada.</p>
+            <p className='pt-5'>Desde sua origem, a Atoth tem se reinventado, e essa nova concepção marca um capítulo significativo nessa jornada.</p>
 
-            <p>A quebra intencional do infinito não representa um fim, mas sim um novo começo — um ciclo que se renova com a certeza de que a inovação e a adaptação são os pilares que sustentam o futuro da marca.</p>
+            <p className='pt-5'>A quebra intencional do infinito não representa um fim, mas sim um novo começo — um ciclo que se renova com a certeza de que a inovação e a adaptação são os pilares que sustentam o futuro da marca.</p>
           </div>
         </div>
       </section>
