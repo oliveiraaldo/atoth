@@ -61,6 +61,20 @@ const testimonials = [
     company: "Arkema Brasil e Cone Sul",
     website: "https://www.arkema.com/brazil/pt/",
   },
+  {
+    text: `"Utilizamos a consultoria Atoth inicialmente com o foco na transição NBR - ISO 9001:2015, cujo trabalho foi excelente no alcance do requisito "chave" riscos e oportunidades do negócio – da norma . Dando continuidade aos trabalhos de qualidade, Rogério nos auxiliou na utilização de ferramentas da qualidade – identificação de causas e resolução de problemas, como também uso do APQP/FMEA no que tange ao desenvolvimento de produtos e processos visando ações preventivas para garantir a qualidade na fabricação. Hoje, essas ferramentas, já fazem parte do dia a dia da PLP, o qual sem o devido apoio Atoth, não seria possível. Gratidão!"`,
+    name: "Ana Lúcia M. André",
+    role: "Executive Manager",
+    company: "PLP – Brasil",
+    website: "https://www.plp.com.br",
+  },
+  {
+    text: `"Minha grata experiência com a Atoth Consultoria começa em 2015, quando notando os riscos do nosso negócio decidimos contratá-los para mapeamento de todos os nossos processos e certificar a Premier Pack nas Normas ISO 9001, com o objetivo de mitigar tais riscos e desenvolver no nosso time a importância de trabalhar de forma organizada e sistematizada. Os desafios foram 3, o mapeamento completo através do envolvimento das equipes, a adequação das normas levando-se em conta o nosso negócio e a certificação no prazo de 6 meses, esse último realmente desafiador. De forma muito focada e determinada o Rogério conseguiu atingir o objetivo no tempo previsto, mas não foi somente isso. Ele soube envolver toda a equipe mostrando sua liderança, que foi contribuída com o comprometimento de todos. Pelo trabalho exemplar deixado pela Atoth Consultoria nossa equipe trabalha diariamente na manutenção e atualização das Normas ISO 9001"`,
+    name: "Marcelo Falcão",
+    role: "Diretor Geral",
+    company: "Premier Pack",
+    website: "https://www.premierpack.com.br",
+  },
 ]
 
 export default function TestimonialSlider() {
