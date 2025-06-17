@@ -33,13 +33,13 @@ const testimonials = [
     company: "Conmtemp",
     website: "www.contemp.com.br",
   },
-  // {
-  //   text: "“O apoio da Atoth para auxiliar nos ajustes do Sistema de Gestão da RFS foi crucial para o sucesso da certificação ISO 9001:2015 e 14001:2015. Com o uso de metodologias simples e trazendo ferramentas para dar suporte no atendimento dos requisitos das normas, o envolvimento da Alta Direção e dos Líderes de Processos tornou-se algo natural, o que acelerou a adequação dos processos nos padrões da ISO. A Atoth não chegou como uma consultoria, mas sim como uma parceira, complemente comprometida com a melhoria dos processos e na busca dos resultados tanto para a empresa quanto para o Sistema de Gestão. O Rogério Gomes, Diretor Geral da Atoth, sempre mostrou-se colaborativo e participativo e, nas conversas que temos, ele nunca se refere à RFS como “Vocês” e sempre se posiciona sentindo-se parte da equipe e referindo-se como “NÓS”. Enfim, a parceria da RFS e Atoth tem trazido excelentes resultados e manteremos essa cooperação nos projetos futuros em desenvolvimento.”",
-  //   name: "Idallécio Lima",
-  //   role: "Quality Manager",
-  //   company: "RFS Brasil",
-  //   website: "www.rfs.com.br",
-  // },
+  {
+    text: "“O apoio da Atoth para auxiliar nos ajustes do Sistema de Gestão da RFS foi crucial para o sucesso da certificação ISO 9001:2015 e 14001:2015. Com o uso de metodologias simples e trazendo ferramentas para dar suporte no atendimento dos requisitos das normas, o envolvimento da Alta Direção e dos Líderes de Processos tornou-se algo natural, o que acelerou a adequação dos processos nos padrões da ISO. A Atoth não chegou como uma consultoria, mas sim como uma parceira, complemente comprometida com a melhoria dos processos e na busca dos resultados tanto para a empresa quanto para o Sistema de Gestão. O Rogério Gomes, Diretor Geral da Atoth, sempre mostrou-se colaborativo e participativo e, nas conversas que temos, ele nunca se refere à RFS como “Vocês” e sempre se posiciona sentindo-se parte da equipe e referindo-se como “NÓS”. Enfim, a parceria da RFS e Atoth tem trazido excelentes resultados e manteremos essa cooperação nos projetos futuros em desenvolvimento.”",
+    name: "Idallécio Lima",
+    role: "Quality Manager",
+    company: "RFS Brasil",
+    website: "www.rfs.com.br",
+  },
   {
     text: `"Rogerio é um parceiro de longa data da Layher e não é por acaso. Ele tem ajudado enormemente ao desenvolvimento da empresa graças a visão estratégica que possui e que além do mais coloca excelentemente na prática. O compromisso dele com as tarefas e os prazos é algo muito destacável pois gera confiança e faz com que a consultoria flua de maneira adequada. Gostaria de destacar a capacidade do Rogerio de homogenizar a estratégia e processos ao longo de diferentes unidades, desde as mais consolidadas as mais novas."`,
     name: "Sérgio Lobo",

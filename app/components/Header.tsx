@@ -62,7 +62,7 @@ export default function Header() {
             <Link href="https://wa.me/5511983646546" target="_blank" className="text-white hover:text-blue-300 transition">
               < FaWhatsapp className='text-2xl' />
             </Link>
-            <Link href="https://www.linkedin.com/in/rogerio-gomes-7000228?originalSubdomain=br" target="_blank" className="text-white hover:text-blue-300 transition">
+            <Link href="https://www.linkedin.com/company/atoth-consultoria" target="_blank" className="text-white hover:text-blue-300 transition">
               < FaLinkedin className='text-2xl' />
             </Link>                        
           </div>
