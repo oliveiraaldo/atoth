@@ -9,6 +9,11 @@ export const metadata = {
     template: 'Atoth | %s',
   },
   description: 'Site institucional com serviços, blog e informações de contato.',
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
 }
 
 export default function RootLayout({ children }: { children: ReactNode }) {
