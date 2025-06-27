@@ -53,8 +53,8 @@ export default function Hero() {
             
             <p className="text-base md:text-xl mb-6 md:mb-8">
               Consultorias, Treinamentos e Auditorias.
-              {/* <br />
-              Procurando soluções eficazes em gestão? */}
+              <br />
+              Procurando soluções eficazes em gestão?
             </p>
             
             <Link 
