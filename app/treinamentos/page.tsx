@@ -108,7 +108,7 @@ export default function TreinamentosPage() {
 
   return (
     <section className="bg-white min-h-screen pb-16">
-            {/* Imagem topo */}
+      {/* Imagem topo */}
             <div className="w-full">
         <Image
           src="/bg/bg-hero-treinamentos.jpg" 
