@@ -12,7 +12,7 @@ export default function Hero() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % totalSlides)
-    }, 5000) // Muda slide a cada 5 segundos
+    }, 8000) // Muda slide a cada 8 segundos (aumentado de 5 para 8)
 
     return () => clearInterval(interval)
   }, [])
@@ -33,14 +33,14 @@ export default function Hero() {
     <section className="relative min-h-[700px] md:min-h-[508px] overflow-hidden">
       {/* Slide 1 - Conteúdo com background atual */}
       <div 
-        className={`absolute inset-0 bg-cover bg-center flex pt-16 md:pt-0 text-center md:text-left transition-transform duration-500 ease-in-out ${
+        className={`absolute inset-0 bg-cover bg-center flex pt-16 md:pt-0 text-center md:text-left transition-transform duration-1000 ease-in-out ${
           currentSlide === 0 ? 'translate-x-0' : '-translate-x-full'
         }`}
         style={{ backgroundImage: 'url(/bg-hero.png)' }}
       >
         <div className="absolute inset-0 bg-black/50"></div>
         
-        <div className="container mx-auto relative z-10 px-4 md:px-0 flex flex-col md:flex-row items-center justify-between h-full">
+        <div className="container mx-auto relative z-20 px-4 md:px-0 flex flex-col md:flex-row items-center justify-between h-full">
           <div className="max-w-2xl text-white">
             <h1 className="text-3xl md:text-5xl font-bold mb-4 md:mb-4">
               Resultados de Sucesso!
@@ -52,7 +52,7 @@ export default function Hero() {
             </h2>
             
             <p className="text-base md:text-xl mb-6 md:mb-8">
-              Consultorias, Treinamentos e Auditorias.
+              Consultorias, Treinamentos e Auditorias que irão revolucionar sua empresa.
               <br />
               Procurando soluções eficazes em gestão?
             </p>
@@ -60,7 +60,7 @@ export default function Hero() {
             <Link 
               href="https://wa.me/5511983646546"
               target="_blank"
-              className="bg-blue-500 hover:bg-blue-900 text-white px-8 py-3 rounded-md font-medium transition-colors inline-block"
+              className="bg-blue-500 hover:bg-blue-900 text-white px-8 py-3 rounded-md font-medium transition-colors inline-block cursor-pointer relative z-30"
             >
               Solicitar Serviços
             </Link>
@@ -82,7 +82,7 @@ export default function Hero() {
 
       {/* Slide 2 - Banner responsivo */}
       <div 
-        className={`absolute inset-0 bg-cover bg-center md:bg-center bg-top transition-transform duration-500 ease-in-out ${
+        className={`absolute inset-0 bg-cover bg-center md:bg-center bg-top transition-transform duration-1000 ease-in-out ${
           currentSlide === 1 ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
@@ -94,28 +94,26 @@ export default function Hero() {
       </div>
 
       {/* Controles de navegação */}
-      <div className="absolute inset-0 flex items-center justify-between px-4 z-20">
-        <button 
-          onClick={prevSlide}
-          className="bg-black/30 hover:bg-black/50 text-white p-2 rounded-full transition-colors"
-        >
-          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-          </svg>
-        </button>
-        
-        <button 
-          onClick={nextSlide}
-          className="bg-black/30 hover:bg-black/50 text-white p-2 rounded-full transition-colors"
-        >
-          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-          </svg>
-        </button>
-      </div>
+      <button 
+        onClick={prevSlide}
+        className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-black/30 hover:bg-black/50 text-white p-2 rounded-full transition-colors z-10"
+      >
+        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+        </svg>
+      </button>
+      
+      <button 
+        onClick={nextSlide}
+        className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-black/30 hover:bg-black/50 text-white p-2 rounded-full transition-colors z-10"
+      >
+        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+        </svg>
+      </button>
 
       {/* Indicadores de slide */}
-      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 z-20">
+      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 z-15">
         {Array.from({ length: totalSlides }).map((_, index) => (
           <button
             key={index}

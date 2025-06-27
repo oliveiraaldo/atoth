@@ -21,16 +21,16 @@ const testimonials = [
   },
   {
     text: `"Rogério da Atoth chegou na Eurometal através de ótimos trabalhos realizados em grandes empresas... Nos apresentou documentos de fácil entendimento e por fim um trabalho árduo em 6 meses é claro o sucesso foi certo!"`,
-    name: "Juliana",
+    name: "Juliana Martins",
     role: "Gerente do Sistema de Gestão da Qualidade",
     company: "Eurometal Indústria e Comércio Ltda.",
     website: "www.euromar.com.br",
   },
   {
     text: "“Deixamos aqui o nosso “muito obrigado” pelo profissionalismo e comprometimento da empresa Atoth, através do envolvimento do Sr. Rogério Gomes, com o projeto para migração da norma ISO 9001:2008 para a versão ISO 9001:2015. Esta migração transcorreu de forma satisfatória, envolvendo todos os colaboradores da empresa, sendo realizada com muita competência e dedicação.”",
-    name: "Edson Luiz de Freitas",
+    name: "Edson Luiz de Freitas (In memoriam)",
     role: "Garantia da Qualidade",
-    company: "Conmtemp",
+    company: "Contemp",
     website: "www.contemp.com.br",
   },
   {
