@@ -1,6 +1,13 @@
 import Image from 'next/image'
 
 const logos = [
+  { src: './clientes/cliente44.svg', alt: 'Cliente 44' },
+  { src: './clientes/cliente43.svg', alt: 'Cliente 43' },
+  { src: './clientes/cliente24.svg', alt: 'Cliente 24' },
+  { src: './clientes/cliente37.svg', alt: 'Cliente 37' },
+  { src: './clientes/cliente15.svg', alt: 'Cliente 15' },
+  { src: './clientes/cliente36.svg', alt: 'Cliente 36' },
+  { src: './clientes/cliente32.svg', alt: 'Cliente 32' },
   { src: './clientes/cliente1.svg', alt: 'Cliente 1' },
   { src: './clientes/cliente2.svg', alt: 'Cliente 2' },
   { src: './clientes/cliente3.svg', alt: 'Cliente 3' },
@@ -15,7 +22,6 @@ const logos = [
   { src: './clientes/cliente12.svg', alt: 'Cliente 12' },
   { src: './clientes/cliente13.svg', alt: 'Cliente 13' },
   { src: './clientes/cliente14.svg', alt: 'Cliente 14' },
-  { src: './clientes/cliente15.svg', alt: 'Cliente 15' },
   { src: './clientes/cliente16.svg', alt: 'Cliente 16' },
   { src: './clientes/cliente17.svg', alt: 'Cliente 17' },
   { src: './clientes/cliente18.svg', alt: 'Cliente 18' },
@@ -24,7 +30,6 @@ const logos = [
   { src: './clientes/cliente21.svg', alt: 'Cliente 21' },
   { src: './clientes/cliente22.svg', alt: 'Cliente 22' },
   { src: './clientes/cliente23.svg', alt: 'Cliente 23' },
-  { src: './clientes/cliente24.svg', alt: 'Cliente 24' },
   { src: './clientes/cliente25.svg', alt: 'Cliente 25' },
   { src: './clientes/cliente26.svg', alt: 'Cliente 26' },
   { src: './clientes/cliente27.svg', alt: 'Cliente 27' },
@@ -32,18 +37,15 @@ const logos = [
   { src: './clientes/cliente29.svg', alt: 'Cliente 29' },
   { src: './clientes/cliente30.svg', alt: 'Cliente 30' },
   { src: './clientes/cliente31.svg', alt: 'Cliente 31' },
-  { src: './clientes/cliente32.svg', alt: 'Cliente 32' },
   { src: './clientes/cliente33.svg', alt: 'Cliente 33' },
   { src: './clientes/cliente34.svg', alt: 'Cliente 34' },
   { src: './clientes/cliente35.svg', alt: 'Cliente 35' },
-  { src: './clientes/cliente36.svg', alt: 'Cliente 36' },
-  { src: './clientes/cliente37.svg', alt: 'Cliente 37' },
   { src: './clientes/cliente38.svg', alt: 'Cliente 38' },
   { src: './clientes/cliente40.svg', alt: 'Cliente 40' },
   { src: './clientes/cliente41.svg', alt: 'Cliente 41' },
   { src: './clientes/cliente42.svg', alt: 'Cliente 42' },
-  { src: './clientes/cliente43.svg', alt: 'Cliente 43' },
-  { src: './clientes/cliente44.svg', alt: 'Cliente 44' },
+
+
 ]
 
 export default function Clients() {

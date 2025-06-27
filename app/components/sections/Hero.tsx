@@ -30,7 +30,7 @@ export default function Hero() {
   }
 
   return (
-    <section className="relative min-h-[508px] overflow-hidden">
+    <section className="relative min-h-[400px] md:min-h-[508px] overflow-hidden">
       {/* Slide 1 - Conteúdo com background atual */}
       <div 
         className={`absolute inset-0 bg-cover bg-center flex pt-10 md:pt-0 text-center md:text-left transition-transform duration-500 ease-in-out ${
@@ -82,7 +82,7 @@ export default function Hero() {
 
       {/* Slide 2 - Apenas imagem banner.png */}
       <div 
-        className={`absolute inset-0 bg-cover bg-center transition-transform duration-500 ease-in-out ${
+        className={`absolute inset-0 bg-cover bg-center md:bg-center bg-top transition-transform duration-500 ease-in-out ${
           currentSlide === 1 ? 'translate-x-0' : 'translate-x-full'
         }`}
         style={{ backgroundImage: 'url(/banner.png)' }}
