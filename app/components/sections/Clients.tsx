@@ -25,6 +25,7 @@ const logos = [
   { src: './clientes/cliente16.svg', alt: 'Cliente 16' },
   { src: './clientes/cliente17.svg', alt: 'Cliente 17' },
   { src: './clientes/cliente18.svg', alt: 'Cliente 18' },
+  { src: './clientes/cliente45.svg', alt: 'Cliente 42' },
   { src: './clientes/cliente19.svg', alt: 'Cliente 19' },
   { src: './clientes/cliente20.svg', alt: 'Cliente 20' },
   { src: './clientes/cliente21.svg', alt: 'Cliente 21' },
@@ -43,9 +44,6 @@ const logos = [
   { src: './clientes/cliente38.svg', alt: 'Cliente 38' },
   { src: './clientes/cliente40.svg', alt: 'Cliente 40' },
   { src: './clientes/cliente41.svg', alt: 'Cliente 41' },
-  { src: './clientes/cliente42.svg', alt: 'Cliente 42' },
-
-
 ]
 
 export default function Clients() {

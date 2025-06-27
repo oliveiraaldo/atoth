@@ -55,7 +55,6 @@ export default function ConsultoriasPage() {
             <li><a href="#">Gestão de Riscos Aplicado à ISO 9001, ISO 14001, ISO 45001 e IATF 16949</a></li>
             <li><a href="#">Gestão de Processos</a></li>
             <li><a href="#">Sistema de Gestão Empresarial e Financeira</a></li>
-            <li><a href="#">RGCP – Requisitos Gerais de Certificação de Produtos Portaria INMETRO Nº 118/2015</a></li>
           </ul>
         </div>
         <div>

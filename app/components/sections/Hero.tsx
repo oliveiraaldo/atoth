@@ -80,13 +80,17 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Slide 2 - Apenas imagem banner.png */}
+      {/* Slide 2 - Banner responsivo */}
       <div 
         className={`absolute inset-0 bg-cover bg-center md:bg-center bg-top transition-transform duration-500 ease-in-out ${
           currentSlide === 1 ? 'translate-x-0' : 'translate-x-full'
         }`}
-        style={{ backgroundImage: 'url(/banner.png)' }}
       >
+        {/* Banner mobile */}
+        <div className="md:hidden absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url(/banner-mobile.png)' }}></div>
+        
+        {/* Banner desktop */}
+        <div className="hidden md:block absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url(/banner.png)' }}></div>
       </div>
 
       {/* Controles de navegação */}
