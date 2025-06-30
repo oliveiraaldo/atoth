@@ -43,7 +43,7 @@ const trainingTopics: Topic[] = [
 ];
 
 // Array com os números das fotos que existem
-const availablePhotos = [1, 2, 3, 4, 6, 8, 9, 10, 11, 12, 13, 14, 16, 18, 20, 21, 22, 23];
+const availablePhotos = [1, 2, 3, 4, 6, 8, 9, 10, 11, 12, 13, 14, 18, 20, 21, 22, 23];
 
 function Accordion({ topics }: { topics: Topic[] }) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
